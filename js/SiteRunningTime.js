@@ -3,7 +3,7 @@ var SiteRunningTime = function(config)
 	var node = document.createElement("span");
 	node.innerHTML = config.startTimeText;
 	node.className = "SiteRunningTime";
-	document.getElementById("footer").appendChild(node);
+	$("footer .blog-text-center")[0].appendChild(node);
 
 	var _selector = function(selector)
 	{
